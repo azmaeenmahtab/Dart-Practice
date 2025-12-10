@@ -28,7 +28,7 @@ void main() {
   
   List<String> listOfStudents = ["fahim"];
   
-  Map<String, int> listOfStudents = {
+  Map<String, int> listOfStudentsandRoll = {
     
     "studentName" : 3,
     
@@ -51,6 +51,18 @@ void main() {
   }
   
   
+  
+  class Human {
+    
+    int age;
+    
+    void calculateSalary(){  
+    
+    }
+    
+  }
+  
+  //use of mixin
   
   
 }
