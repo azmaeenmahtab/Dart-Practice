@@ -52,17 +52,19 @@ void main() {
   
   
   
-  class Human {
-    
-    int age;
-    
-    void calculateSalary(){  
-    
-    }
-    
-  }
-  
-  //use of mixin
+
   
   
 }
+
+class Human {
+
+  int? age;
+
+  void calculateSalary(){
+    print("practicing class");
+  }
+
+}
+
+//use of mixin
