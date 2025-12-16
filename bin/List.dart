@@ -20,4 +20,27 @@ void main(){
 
   print(namess);
   print(names);
+
+
+  var planets = {}; // this creates an empty map ,
+  //not a empty set
+  // in a map we have key value pairs
+
+  Map<int, String> planetss = {
+    1: "mercury",
+    2: "venus",
+    3: "earth",
+  };
+
+  print(planetss);
+  print(planetss[2]);
+  planetss[2] = "changed";
+  print(planetss[2]);
+
+  print(planetss.containsKey(3));
+  print(planetss.containsKey(6));
+
+
+
+
 }
