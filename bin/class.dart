@@ -15,6 +15,9 @@ void main(){
 
   String ans = pizza1.format();
   print(ans);
+
+  print(pizza1);
+  print(item2);
 }
 
 class MenuItem {
@@ -31,6 +34,13 @@ class MenuItem {
   String format(){
 
     return "$title --> $price";
+  }
+
+
+  @override
+  String toString(){
+
+    return "this is a instance fform MenuItem";
   }
 
 }
@@ -51,6 +61,12 @@ class Pizza extends MenuItem{
     }
 
     return '$title --> $price \n$formattedToppings';
+  }
+
+  @override
+  String toString(){
+
+    return "this is to string from pizza class";
   }
 
 }
