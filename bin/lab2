@@ -1,0 +1,13 @@
+parameter types 
+platforms 
+
+flutter project setup 
+flutter ui te output dekhte hoile  main function e runApp function call kora lagbe
+flutter er ashol jinis class and objects
+ui er proti ta jinis ekta widget and protita widget ekta class
+
+hot reload + hot restart
+
+hot reload = ctrl + s = build function call hoy (jei screen e asi oi screen er)
+hot restart = main function call hoy (jei screen e asi oi screen er)
+
